@@ -1,6 +1,6 @@
 # CLShortcuts
 
-###Find the open connection
+####Find the open connection
 ```Shell
 lsof -i -P | grep -i "listen"
 ```
