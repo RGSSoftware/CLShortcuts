@@ -15,4 +15,11 @@ netstat -anp tcp | grep 3000
 kill -9 'PID'
 ```
 
+###Shutdown MongoDB
+```Shell
+$ mongo
 
+use admin
+
+db.shutdownServer()
+```
