@@ -21,3 +21,8 @@ $ mongo
 use admin
 db.shutdownServer()
 ```
+
+###Start Ngrok, only HTTPS, with PORT 
+```Shell
+ngrok http -bind-tls=true 'PORT'
+```
