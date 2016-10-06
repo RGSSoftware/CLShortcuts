@@ -18,8 +18,6 @@ kill -9 'PID'
 ###Shutdown MongoDB
 ```Shell
 $ mongo
-
 use admin
-
 db.shutdownServer()
 ```
