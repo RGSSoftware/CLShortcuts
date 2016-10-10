@@ -29,7 +29,9 @@ ngrok http -bind-tls=true 'PORT'
 
 ####Start and Stop Ngix Mac
 ```Shell
+//Start
 sudo nginx
 
+//Stop
 sudo nginx -s stop
 ```
