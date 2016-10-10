@@ -26,3 +26,10 @@ db.shutdownServer()
 ```Shell
 ngrok http -bind-tls=true 'PORT'
 ```
+
+####Start and Stop Ngix Mac
+```Shell
+sudo nginx
+
+sudo nginx -s stop
+```
