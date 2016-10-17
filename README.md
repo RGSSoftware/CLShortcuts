@@ -37,4 +37,11 @@ sudo nginx -s stop
 ```
 
 ####Copy files from local host to remote host
+```Shell
 scp -r -i key.pem localPath remoteUser@host:path.
+```
+
+####Open Docker shell in running container
+```Shell
+docker exec -it ID|Name bash
+```
