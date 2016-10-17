@@ -35,3 +35,6 @@ sudo nginx
 //Stop
 sudo nginx -s stop
 ```
+
+####Copy files from local host to remote host
+scp -r -i key.pem localPath remoteUser@host:path.
