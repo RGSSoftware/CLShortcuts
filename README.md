@@ -45,3 +45,8 @@ scp -r -i key.pem localPath remoteUser@host:path.
 ```Shell
 docker exec -it ID|Name bash
 ```
+
+####Build node.js package.json with defaults
+```Shell
+npm init -y
+```
