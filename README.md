@@ -59,5 +59,5 @@ To paste the block to another place, move cursor to the position and the use CTR
 
 ####Size of Dir
 ```Shell
-du -sh
+du -sh <dir>
 ```
