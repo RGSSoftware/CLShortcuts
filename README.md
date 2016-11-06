@@ -61,3 +61,8 @@ To paste the block to another place, move cursor to the position and the use CTR
 ```Shell
 du -sh <dir>
 ```
+
+####Watch files for changes
+```Shell
+watch cat text.log
+```
