@@ -65,4 +65,5 @@ du -sh <dir>
 ####Watch files for changes
 ```Shell
 watch cat text.log
+tail -f /var/log/wifi.log
 ```
