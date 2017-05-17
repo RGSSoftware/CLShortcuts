@@ -1,6 +1,11 @@
 # CLShortcuts
 
-####Find the open connection
+#### Find all files containing string
+```Shell
+grep -rnw '/path/to/somewhere/' -e 'pattern'
+```
+
+#### Find the open connection
 ```Shell
 lsof -i -P | grep -i "listen"
 ```
