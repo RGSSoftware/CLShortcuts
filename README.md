@@ -10,14 +10,22 @@ grep -rnw '/path/to/somewhere/' -e 'pattern'
 lsof -i -P | grep -i "listen"
 ```
 
-####Find the open connection by PORT
+#### Find the open connection by PORT
 ```Shell
 netstat -anp tcp | grep 3000
+
+or 
+
+lsof -i:8080
 ```
 
-####Kill by process ID
+#### Kill by process ID
 ```Shell
 kill -9 'PID'
+
+or 
+
+kill -9 $(lsof -t -i:8080)
 ```
 
 ####Shutdown MongoDB
